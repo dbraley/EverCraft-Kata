@@ -22,4 +22,10 @@ public class CharacterTest {
     public void canGetName() {
         assertEquals("Dave", character.getName());
     }
+
+    @Test
+    public void canSetAndGetName() {
+        character.setName("Droggo");
+        assertEquals("Droggo", character.getName());
+    }
 }
